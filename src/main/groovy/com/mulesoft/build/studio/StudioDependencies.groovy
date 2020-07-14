@@ -72,7 +72,7 @@ class StudioDependencies {
 
             logger.info("Parsed ${dep} as compile-time dependency")
 
-            ret << dep
+            ret.add(dep)
         }
 
         return ret;

@@ -95,7 +95,7 @@ class StudioDomainPlugin implements Plugin<Project> {
         }
 
 
-        Task studioTask = project.task('studio') << {
+        Task studioTask = project.task('studio') .doLast {
             logger.info('Updating mule studio project...')
 
             //get the mule project configuration

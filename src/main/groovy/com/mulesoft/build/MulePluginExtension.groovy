@@ -124,7 +124,7 @@ class MulePluginExtension {
     Set<Map<String, String>> plugins = []
 
     void components(Closure<Void> closure) {
-        this.components << closure
+        this.components.add(closure)
     }
 
 

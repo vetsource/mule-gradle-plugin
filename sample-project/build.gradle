@@ -1,6 +1,6 @@
 buildscript {
 	dependencies {
-		classpath group: 'org.mulesoft.build', name: 'mule-gradle-plugin', version: '2.0.0-SNAPSHOT'
+		classpath group: 'org.mulesoft.build', name: 'mule-gradle-plugin', version: '2.0.0'
 	}
 
 	repositories {
